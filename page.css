@@ -1,4 +1,12 @@
-.home-container {
+.page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.page-container1 {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -7,7 +15,7 @@
   flex-direction: column;
   background-image: linear-gradient(315deg, rgba(255, 255, 255, 0) 0.00%,rgba(240, 70, 184, 0.3) 100.00%),linear-gradient(90deg, rgba(255, 255, 255, 0.42) 2.00%,rgba(255, 255, 255, 0.11) 100.00%),radial-gradient(circle at right top, rgb(255, 186, 223) 2.00%,rgb(255, 255, 255) 21.00%,rgb(255, 186, 223) 45.00%,rgb(255, 255, 255) 68.00%,rgb(255, 186, 223) 99.00%);
 }
-.home-header {
+.page-header {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -18,25 +26,25 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.home-link {
+.page-link {
   display: contents;
 }
-.home-text {
+.page-text {
   color: #ffffff;
   font-size: 26px;
   text-decoration: none;
 }
-.home-frame26 {
+.page-frame26 {
   gap: 10px;
   width: 95px;
   display: flex;
   position: relative;
   align-items: flex-start;
 }
-.home-link1 {
+.page-link1 {
   display: contents;
 }
-.home-vk-logo1 {
+.page-vk-logo1 {
   width: 25.25px;
   height: 25px;
   display: flex;
@@ -46,7 +54,7 @@
   flex-shrink: 0;
   text-decoration: none;
 }
-.home-clippathgroup {
+.page-clippathgroup {
   top: -0.0020456835627555847px;
   left: 0.12059471011161804px;
   width: 25px;
@@ -56,21 +64,21 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
-.home-vector {
+.page-vector {
   top: 0px;
   left: 0px;
   width: 25px;
   height: 25px;
   position: absolute;
 }
-.home-vector1 {
+.page-vector1 {
   top: 7.6054158210754395px;
   left: 4.216656684875488px;
   width: 17px;
   height: 10px;
   position: absolute;
 }
-.home-group11 {
+.page-group11 {
   width: 25px;
   height: 25px;
   display: flex;
@@ -78,17 +86,17 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
-.home-rectangle14 {
+.page-rectangle14 {
   top: 3px;
   left: 5px;
   width: 16px;
   height: 18px;
   position: absolute;
 }
-.home-link2 {
+.page-link2 {
   display: contents;
 }
-.home-vector2 {
+.page-vector2 {
   top: 0px;
   left: 0px;
   width: 25px;
@@ -96,54 +104,69 @@
   position: absolute;
   text-decoration: none;
 }
-.home-link3 {
+.page-link3 {
   display: contents;
 }
-.home-vector3 {
+.page-vector3 {
   width: 25px;
   height: 25px;
   text-decoration: none;
 }
-.home-text1 {
+.page-navlink {
   color: rgb(255, 255, 255);
   font-size: 18px;
   align-self: flex-start;
   font-style: normal;
   font-weight: 700;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.home-image {
+.page-container2 {
+  flex: 0;
   width: 100%;
-  max-width: 400px;
-  margin-top: var(--dl-space-space-twounits);
-  object-fit: cover;
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
-}
-.home-container1 {
-  bottom: var(--dl-space-space-oneandhalfunits);
+  height: 100%;
   display: flex;
-  position: absolute;
+  overflow: auto;
+  margin-top: var(--dl-space-space-twounits);
+  max-height: 450px;
   align-items: center;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.home-link4 {
-  color: var(--dl-color-primary-main);
-  font-style: normal;
-  transition: 0.3s;
-  font-weight: 500;
+.page-ul {
+  gap: 350px;
+  margin: 0px;
+  display: flex;
   padding-top: var(--dl-space-space-unit);
-  border-color: var(--dl-color-primary-main);
-  border-width: 1px;
-  padding-left: var(--dl-space-space-threeunits);
-  border-radius: 12px;
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-unit);
-  background-color: #ffffff;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: 0px;
 }
-.home-link4:hover {
-  background-color: #f1f1f1;
+.page-li {
+  height: auto;
+  padding-top: var(--dl-space-space-unit);
+}
+.page-text1 {
+  color: rgb(255, 255, 255);
+}
+.page-image {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+}
+.page-li1 {
+  height: auto;
+  padding-top: var(--dl-space-space-unit);
+}
+.page-text2 {
+  color: rgb(255, 255, 255);
+}
+.page-image1 {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
 }

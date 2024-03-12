@@ -1,0 +1,77 @@
+.frame26-frame26 {
+  gap: 10px;
+  width: 95px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.frame26-vk-logo1 {
+  width: 25.25px;
+  height: 25px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame26-clippathgroup {
+  top: -0.0020456835627555847px;
+  left: 0.12059471011161804px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame26-vector {
+  top: 0px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.frame26-vector1 {
+  top: 7.6054158210754395px;
+  left: 4.216656684875488px;
+  width: 17px;
+  height: 10px;
+  position: absolute;
+}
+.frame26-group11 {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame26-rectangle14 {
+  top: 3px;
+  left: 5px;
+  width: 16px;
+  height: 18px;
+  position: absolute;
+}
+.frame26-vector2 {
+  top: 0px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.frame26-vector3 {
+  width: 25px;
+  height: 25px;
+}
+.frame26-root-class-name {
+  top: 50px;
+  left: 258px;
+  position: absolute;
+}
+@media(max-width: 767px) {
+  .frame26-root-class-name {
+    top: 34px;
+    right: 41px;
+  }
+}
